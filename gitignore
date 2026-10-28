@@ -1,0 +1,24 @@
+# Python and cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter and editors
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS / logs
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Optional trained artefacts
+models/*.pkl
+models/*.joblib
